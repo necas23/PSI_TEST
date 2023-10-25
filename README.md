@@ -2,7 +2,7 @@
 
 ## Informação do aluno
 
-    Nome: ...
+    Nome: Rodrigo Silva
 
 Teste termina às 09:40 (Turno 1) / 13:25 (Turno 2).
 
@@ -17,7 +17,7 @@ Não desformates o documento.
 
 P1 - Resposta
 
-    ...
+    Quando corrido o código imprime "\n®\n". O \n é impresso como texto porque a string é verbatim e interpolada por isso o \n não funciona como nova linha e sim como texto.
 
 ### 2. Considera o seguinte código
 
@@ -30,7 +30,7 @@ P1 - Resposta
 
 P2 - Resposta
 
-    ...
+    É preciso colocar um f a frente do valor na variável float porque se o valor dentro de uma variável float não tiver um f irá dar erro.
 
 ### 3. Escreve um programa que solicite uma string ao utilizador, e seguidamente a mostre no ecrã de forma invertida
 
@@ -41,5 +41,11 @@ P3 - Resposta
 ### 4. Quais são os comandos Git para configurares, de uma forma global, o teu **nome** e **email** para realização de *commits*? E se essa configuração for apenas para um repositório?
 
 P4 - Resposta
+    
+    // Global
+    git config --global user.name “Nome”
+    git config --global user.email "Email"
 
-    ...
+    // Apenas um repositório
+    git config user.name “Nome”
+    git config user.email "Email"
